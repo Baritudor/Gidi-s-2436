@@ -1,0 +1,278 @@
+
+#orders, #blog, #team, #newsletter {
+    padding: 50px;
+    background-color: #f4f4f4;
+}
+
+.order-item, .blog-post, .team-member {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.social-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 5px;
+}
+* {
+    margin: 0;
+}
+
+#navbar {
+    background-color: darkcyan;
+    opacity: 0.7;
+    display: flex; 
+    justify-content: space-between; 
+    padding: 20px;
+}
+
+.btn {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+    text-decoration: none;
+    margin: 5px;
+    padding: 8px;
+    border-radius: 25px;
+}
+
+#center a {
+    color: green;
+}
+
+#right a {
+    color: red;
+}
+
+#center a:hover {
+    cursor: pointer;
+    background-color: green;
+    color: white;
+}
+
+#right a:hover {
+    cursor: pointer;
+    background-color: red;
+    color: white;
+}
+
+#welcome {
+    display: flex;
+    padding: 30px;
+    background-color: lavender;
+    justify-content: space-evenly;
+    height: 80vh;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero div {
+    max-width: 600px;
+}
+
+.hero h3 {
+    font-size: 55px;
+    color: green;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-weight: 900;
+}
+
+.hero p {
+    font-size: 25px;
+    color: grey;
+    font-style: italic;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.hero a {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+    color: green;
+    text-decoration: none;
+    margin: 5px;
+    padding: 8px;
+    border-radius: 25px;
+    margin-top: 10px;
+}
+
+#about {
+    padding: 40px;
+    background-color: lavender;
+}
+#about h3{
+    font-size: 30px;
+    color: green;
+    text-align: center;
+}
+#about p{
+    padding: 30px;
+    font-size: 22px;
+    color: grey;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+
+#orders{
+    padding: 30px;
+}
+.order-box{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.orders hr{
+    /* width: 20px; */
+    color: brown;
+    font-size: 30px;
+}
+.order-item{
+    padding: 25px;
+    border-radius: 25px;
+    height: 400px;
+    width: 300px;
+    background-color: beige;
+}
+.order-item h4{
+    padding: 15px;
+    color: greenyellow;
+    font-size: 30px;
+}
+.order-item p{
+    font-size: 20px;
+    color: brown;
+    margin: 15px;
+    padding: 15px;
+}
+.order-item img{
+    border-radius: 25px;
+}
+
+#blog {
+    padding: 20px;
+
+}
+
+#blog h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.blog-post {
+    background-color: beige;
+    padding: 20px;
+    margin: 20px;
+    height: 400px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.blog-post h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.blog-post p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.blog-post a {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.blog-post a:hover {
+    background-color: #0056b3;
+}
+
+#team {
+    padding: 20px;
+}
+
+#team h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.team-member {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.team-member img {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.team-member h4 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.team-member p {
+    font-size: 16px;
+    color: #555;
+}
+
+#newsletter {
+    padding: 20px;
+}
+
+#newsletter h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+#newsletter form {
+    display: flex;
+    align-items: center;
+}
+
+#newsletter input[type="email"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    flex: 1;
+}
+
+#newsletter button[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#newsletter button[type="submit"]:hover {
+    background-color: #0056b3;
+}
